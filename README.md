@@ -38,3 +38,6 @@ Find the documentation [here](http://django-allauth.readthedocs.io/en/latest/ins
     accounts/ password_reset/done/ [name='password_reset_done']
     accounts/ reset/<uidb64>/<token>/ [name='password_reset_confirm']
     accounts/ reset/done/ [name='password_reset_complete']
+    accounts/ ^ ^signup/$ [name='account_signup']
+
+
